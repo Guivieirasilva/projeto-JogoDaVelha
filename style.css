@@ -1,0 +1,31 @@
+/* Paleta de cores */
+.Elle-Magazine-1-hex { color: #034AA6; }
+.Elle-Magazine-2-hex { color: #0C87F2; }
+.Elle-Magazine-3-hex { color: #6BB3F2; }
+.Elle-Magazine-4-hex { color: #F2E30F; }
+.Elle-Magazine-5-hex { color: #F24607; }
+
+body{
+    text-align: center;
+    background-color: #034AA6 ;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    }
+    
+}
+.stage{
+   
+}
+.square{
+    width: 120px;
+    height: 120px;
+    margin: 1px;
+    background-color: #6BB3F2;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+}
