@@ -14,11 +14,7 @@ h1{
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
-    }
     
-}
-.stage{
-   
 }
 .square{
     width: 120px;
@@ -34,7 +30,7 @@ h1{
 }
 .o::after{
     position: absolute;
-    content: "🔴";
+    content: "\1F534";
     font-size: 60px;
     line-height: 120px;
     top: 0;
@@ -48,7 +44,7 @@ h1{
 }
 .x::after{
     position: absolute;
-    content: "❌";
+    content: "\274C";
     font-size: 60px;
     line-height: 120px;
     top: 0;
