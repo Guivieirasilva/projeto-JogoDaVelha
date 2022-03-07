@@ -29,3 +29,31 @@ h1{
     border-radius: 5px;
     display: inline-block;
 }
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "🔴";
+    font-size: 60px;
+    line-height: 120px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "❌";
+    font-size: 60px;
+    line-height: 120px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
