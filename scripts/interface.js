@@ -31,3 +31,10 @@ function updateSquare(postion){
     square.innerHTML = `<div class='${symbol}'></div>`
 }
 
+var btn = document.querySelector("#restart");
+
+btn.addEventListener("click", function() {
+    
+    location.reload();
+
+});
